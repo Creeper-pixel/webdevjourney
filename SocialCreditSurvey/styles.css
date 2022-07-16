@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+body {
+  background-color: rgb(25,25,25);
+}
+h1,p {
+  padding-top: 15px;
+  text-align: center;
+  font-family: 'Roboto Mono', sans-serif;
+  color: white
+}
+
+p {
+  padding-top: unset;
+}
+fieldset {
+  max-width: 450px;
+  margin: auto;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+label {
+  text-align: left;
+  margin-top: 15px;
+  font-family: 'Roboto Mono', sans-serif;
+  color: white
+}
+label, input, #dropdown {
+  margin: 15px 0 0 0;
+  width: 100%;
+  display: block;
+}
+input {
+  margin-top: 5px;
+  min-height: 2.5em;
+  border-radius: 5px;
+}
+
+#dropdown {
+  width: 100%;
+  margin: 15px auto;
+  text-align: center;
+  font-size: 17px;
+}
+
+.inline {
+  width: unset;
+  display: inline;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+#submit {
+  width: 50%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sussytext {
+  color: black;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
